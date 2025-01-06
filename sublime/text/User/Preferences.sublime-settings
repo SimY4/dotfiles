@@ -1,0 +1,16 @@
+{
+	"font_face": "Iosevka Fixed",
+	"font_size": 15,
+	"theme": "auto",
+	"dark_theme": "Adaptive.sublime-theme",
+	"light_theme": "Adaptive.sublime-theme",
+	"color_scheme": "auto",
+	"light_color_scheme": "Alabaster.sublime-color-scheme",
+	"dark_color_scheme": "Alabaster Dark.sublime-color-scheme",
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"goto_anything_exclude_gitignore": true,
+	"ignored_packages": ["Vintage",
+	],
+	"index_files": true,
+}

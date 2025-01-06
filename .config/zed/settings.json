@@ -1,0 +1,26 @@
+{
+  "theme": {
+    "mode": "system",
+    "light": "Alabaster",
+    "dark": "Alabaster"
+  },
+  "ui_font_family": "Zed Plex Sans",
+  "ui_font_size": 15,
+  "preferred_line_length": 120,
+  "tab_size": 2,
+  "buffer_font_family": "Iosevka Fixed",
+  "buffer_font_size": 15,
+  "autosave": "on_focus_change",
+  "auto_signature_help": true,
+  "lsp": {
+    "metals": {
+      "settings": {
+        "inlayHints": {
+          "inferredTypes": {
+            "enable": true
+          }
+        }
+      }
+    }
+  }
+}

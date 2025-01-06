@@ -1,0 +1,8 @@
+{
+	"auto_fetch_delay": 5,
+	"font_face": "Iosevka Fixed",
+	"font_size": 15,
+	"tab_size": 2,
+	"diff_style": "auto",
+	"side_bar_layout": "commit_graph_as_column",
+}
