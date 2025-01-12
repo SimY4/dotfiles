@@ -51,9 +51,10 @@ done
 
 # Define an array of applications to install using Homebrew Cask.
 apps=(
-  "sublime-merge"
+  "ghostty",
+  "rectangle",
+  "sublime-merge",
   "sublime-text"
-  "ghostty"
 )
 
 # Loop over the array to install each application.
