@@ -12,6 +12,7 @@
   "buffer_font_size": 15,
   "autosave": "on_focus_change",
   "auto_signature_help": true,
+  "wrap_guides": [120],
   "lsp": {
     "metals": {
       "settings": {
