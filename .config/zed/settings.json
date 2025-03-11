@@ -23,6 +23,12 @@
   "autosave": "on_focus_change",
   "auto_signature_help": true,
   "wrap_guides": [120],
+  "diagnostics": {
+    "include_warnings": true,
+    "inline": {
+      "enabled": true
+    }
+  },
   "lsp": {
     "metals": {
       "settings": {
