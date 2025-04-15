@@ -2,7 +2,7 @@
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gpt-4o"
+      "model": "claude-3-5-sonnet"
     },
     "version": "2"
   },
@@ -13,6 +13,13 @@
     "mode": "system",
     "light": "Alabaster",
     "dark": "Ayu Dark"
+  },
+  "tabs": {
+    "git_status": true,
+    "file_icons": true
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false
   },
   "ui_font_family": "Zed Plex Sans",
   "ui_font_size": 15,
@@ -28,6 +35,12 @@
     "inline": {
       "enabled": true
     }
+  },
+  "inlay_hints": {
+    "enabled": true
+  },
+  "collaboration_panel": {
+    "button": false
   },
   "lsp": {
     "metals": {
