@@ -21,6 +21,7 @@
   "tab_bar": {
     "show_nav_history_buttons": false
   },
+  "vim_mode": true,
   "ui_font_family": "Zed Plex Sans",
   "ui_font_size": 15,
   "preferred_line_length": 120,
