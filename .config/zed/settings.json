@@ -22,9 +22,17 @@
     "show_nav_history_buttons": false
   },
   "vim_mode": true,
+  "vim": {
+    "cursor_shape": {
+      "normal": "hollow",
+      "insert": "bar",
+      "replace": "block",
+      "visual": "underline"
+    }
+  },
   "ui_font_family": "Zed Plex Sans",
-  "ui_font_size": 15,
   "preferred_line_length": 120,
+  "ui_font_size": 15,
   "tab_size": 2,
   "buffer_font_family": "Iosevka Fixed",
   "buffer_font_size": 15,

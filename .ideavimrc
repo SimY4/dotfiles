@@ -1,0 +1,34 @@
+"" ========================================================
+"" Base Settings
+"" ========================================================
+set scrolloff=10
+set history=1000
+set number relativenumber
+set showmode
+set showcmd
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+set visualbell
+
+" Clipboard Integration
+set clipboard^=unnamed,unnamedplus
+
+" Jump between matching angle brackets
+set matchpairs+=<:>
+
+" Leader Key
+let mapleader="\<space>"
+
+" Default Behavior
+set gdefault
+
+" IdeaVim Specific Settings
+set ideajoin
+set ideamarks
+set idearefactormode=normal
+set ideastatusicon=gray
+
+" Escape to clear search highlighting
+nnoremap <Esc> :nohlsearch<cr>
