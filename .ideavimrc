@@ -11,6 +11,7 @@ set smartcase
 set incsearch
 set hlsearch
 set visualbell
+set surround
 
 " Clipboard Integration
 set clipboard^=unnamed,unnamedplus
@@ -21,13 +22,10 @@ set matchpairs+=<:>
 " Leader Key
 let mapleader="\<space>"
 
-" Default Behavior
-set gdefault
-
 " IdeaVim Specific Settings
 set ideajoin
 set ideamarks
-set idearefactormode=normal
+set idearefactormode=keep
 set ideastatusicon=gray
 
 " Escape to clear search highlighting

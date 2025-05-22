@@ -1,5 +1,5 @@
 {
-  "assistant": {
+  "agent": {
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-3-5-sonnet"
@@ -30,6 +30,7 @@
       "visual": "underline"
     }
   },
+  "minimap": { "show": "always" },
   "ui_font_family": "Zed Plex Sans",
   "preferred_line_length": 120,
   "ui_font_size": 15,
