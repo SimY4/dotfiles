@@ -2,7 +2,7 @@
   "agent": {
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-3-5-sonnet"
+      "model": "gpt-4o"
     },
     "version": "2"
   },
@@ -40,6 +40,7 @@
   "autosave": "on_focus_change",
   "auto_signature_help": true,
   "wrap_guides": [120],
+  "relative_line_numbers": true,
   "diagnostics": {
     "include_warnings": true,
     "inline": {
