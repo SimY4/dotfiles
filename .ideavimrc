@@ -30,3 +30,45 @@ set ideastatusicon=gray
 
 " Escape to clear search highlighting
 nnoremap <Esc> :nohlsearch<cr>
+
+" File navigation
+map <leader>ff <action>(GotoFile)
+map <leader>fr <action>(RecentFiles)
+map <leader>fc <action>(FindInPath)
+map <leader><leader> <Action>(RecentFiles)
+map <leader>fl <action>(RecentLocations)
+map <leader>fs <action>(NewScratchFile)
+
+" Folding
+map <leader>zc :action CollapseAllRegions<CR>
+map <leader>zo :action ExpandAllRegions<CR>
+
+" Display options
+map <leader>dd <action>(ToggleDistractionFreeMode)
+map <leader>dz <action>(ToggleZenMode)
+map <leader>df <action>(ToggleFullScreen)
+
+" Actions
+map <leader>am <action>(ShowIntentionActions)
+map <leader>as <action>(SearchEverywhere)
+
+" Go to code
+nmap <leader>gd <Action>(GotoDeclaration)
+nmap <leader>gy <Action>(GotoTypeDeclaration)
+nmap <leader>gi <Action>(GotoImplementation)
+nmap <leader>gu <Action>(ShowUsages)
+nmap <leader>gt <Action>(GotoTest)
+nmap <leader>gf <Action>(Back)
+nmap <leader>gb <Action>(Forward)
+
+" Refactoring
+map <leader>rn <Action>(RenameElement)
+map <leader>rm <Action>(ExtractMethod)
+map <leader>rv <Action>(IntroduceVariable)
+map <leader>rf <Action>(IntroduceField)
+map <leader>rs <Action>(ChangeSignature)
+map <leader>rr <Action>(Refactorings.QuickListPopupAction)
+
+" Easy visual indentation
+vnoremap < <gv
+vnoremap > >gv
