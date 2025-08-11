@@ -31,26 +31,30 @@ set ideastatusicon=gray
 " Escape to clear search highlighting
 nnoremap <Esc> :nohlsearch<cr>
 
+" IdeaVim actions
+nmap [[ <Action>(MethodUp)
+nmap ]] <Action>(MethodDown)
+
 " File navigation
-map <leader>ff <action>(GotoFile)
-map <leader>fr <action>(RecentFiles)
-map <leader>fc <action>(FindInPath)
+map <leader>ff <Action>(GotoFile)
+map <leader>fr <Action>(RecentFiles)
+map <leader>fc <Action>(FindInPath)
 map <leader><leader> <Action>(RecentFiles)
-map <leader>fl <action>(RecentLocations)
-map <leader>fs <action>(NewScratchFile)
+map <leader>fl <Action>(RecentLocations)
+map <leader>fs <Action>(NewScratchFile)
 
 " Folding
 map <leader>zc :action CollapseAllRegions<CR>
 map <leader>zo :action ExpandAllRegions<CR>
 
 " Display options
-map <leader>dd <action>(ToggleDistractionFreeMode)
-map <leader>dz <action>(ToggleZenMode)
-map <leader>df <action>(ToggleFullScreen)
+map <leader>dd <Action>(ToggleDistractionFreeMode)
+map <leader>dz <Action>(ToggleZenMode)
+map <leader>df <Action>(ToggleFullScreen)
 
 " Actions
-map <leader>am <action>(ShowIntentionActions)
-map <leader>as <action>(SearchEverywhere)
+map <leader>am <Action>(ShowIntentionActions)
+map <leader>as <Action>(SearchEverywhere)
 
 " Go to code
 nmap <leader>gd <Action>(GotoDeclaration)
