@@ -1,9 +1,10 @@
 {
   "agent": {
+    "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4"
-    },
+    }
   },
   "features": {
     "edit_prediction_provider": "zed"
@@ -30,7 +31,7 @@
     }
   },
   "minimap": { "show": "always" },
-  "ui_font_family": "Zed Plex Sans",
+  "ui_font_family": ".ZedMono",
   "preferred_line_length": 120,
   "ui_font_size": 15,
   "tab_size": 2,
