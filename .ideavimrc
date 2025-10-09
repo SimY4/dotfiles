@@ -53,8 +53,9 @@ map <leader>dz <Action>(ToggleZenMode)
 map <leader>df <Action>(ToggleFullScreen)
 
 " Actions
+map <leader>ad <Action>(QuickJavaDoc)
 map <leader>am <Action>(ShowIntentionActions)
-map <leader>as <Action>(SearchEverywhere)
+map <leader>as <Action>(FileStructurePopup)
 
 " Go to code
 nmap <leader>gd <Action>(GotoDeclaration)
