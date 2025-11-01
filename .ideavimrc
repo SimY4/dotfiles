@@ -77,3 +77,9 @@ map <leader>rr <Action>(Refactorings.QuickListPopupAction)
 " Easy visual indentation
 vnoremap < <gv
 vnoremap > >gv
+
+" Move visually selected lines up or down
+nnoremap K :m .-2<CR>==
+nnoremap J :m .+1<CR>==
+vnoremap K :m '<-2<CR>gv=gv
+vnoremap J :m '>+1<CR>gv=gv
