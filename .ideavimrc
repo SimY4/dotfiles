@@ -79,7 +79,10 @@ vnoremap < <gv
 vnoremap > >gv
 
 " Move visually selected lines up or down
-nnoremap K :m .-2<CR>==
-nnoremap J :m .+1<CR>==
-vnoremap K :m '<-2<CR>gv=gv
-vnoremap J :m '>+1<CR>gv=gv
+nnoremap <C-Up> :m .-2<CR>==
+nnoremap <C-Down> :m .+1<CR>==
+vnoremap <C-Up> :m '<-2<CR>gv=gv
+vnoremap <C-Down> :m '>+1<CR>gv=gv
+
+" Paste without overwriting clipboard
+vnoremap p "_dP
