@@ -11,6 +11,7 @@ set smartcase
 set incsearch
 set hlsearch
 set visualbell
+set matchit
 set surround
 
 " Clipboard Integration
@@ -30,6 +31,9 @@ set ideastatusicon=gray
 
 " Escape to clear search highlighting
 nnoremap <Esc> :nohlsearch<cr>
+
+" Matchit settings
+let b:match_words = '<:>,<tag>:</tag>'
 
 " IdeaVim actions
 nmap [[ <Action>(MethodUp)
