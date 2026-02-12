@@ -1,25 +1,29 @@
 {
+  "edit_predictions": {
+    "provider": "zed",
+  },
+  "which_key": {
+    "enabled": true,
+  },
   "agent": {
-    "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4"
-    }
-  },
-  "features": {
-    "edit_prediction_provider": "zed"
+      "model": "claude-opus-4.6",
+    },
+    "favorite_models": [],
+    "model_parameters": [],
   },
   "theme": {
     "mode": "system",
     "light": "Alabaster",
-    "dark": "Alabaster Dark"
+    "dark": "Alabaster Dark",
   },
   "tabs": {
     "git_status": true,
-    "file_icons": true
+    "file_icons": true,
   },
   "tab_bar": {
-    "show_nav_history_buttons": false
+    "show_nav_history_buttons": false,
   },
   "vim_mode": true,
   "vim": {
@@ -27,8 +31,8 @@
       "normal": "hollow",
       "insert": "bar",
       "replace": "block",
-      "visual": "underline"
-    }
+      "visual": "underline",
+    },
   },
   "minimap": { "show": "always" },
   "ui_font_family": ".ZedMono",
@@ -40,28 +44,28 @@
   "autosave": "on_focus_change",
   "auto_signature_help": true,
   "wrap_guides": [120],
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "diagnostics": {
     "include_warnings": true,
     "inline": {
-      "enabled": true
-    }
+      "enabled": true,
+    },
   },
   "inlay_hints": {
-    "enabled": true
+    "enabled": true,
   },
   "collaboration_panel": {
-    "button": false
+    "button": false,
   },
   "lsp": {
     "metals": {
       "settings": {
         "inlayHints": {
           "inferredTypes": {
-            "enable": true
-          }
-        }
-      }
-    }
-  }
+            "enable": true,
+          },
+        },
+      },
+    },
+  },
 }
