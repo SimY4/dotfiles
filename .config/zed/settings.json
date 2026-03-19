@@ -45,6 +45,8 @@
   "auto_signature_help": true,
   "wrap_guides": [120],
   "relative_line_numbers": "enabled",
+  "scroll_beyond_last_line": "one_page",
+  "vertical_scroll_margin": 10,
   "diagnostics": {
     "include_warnings": true,
     "inline": {
