@@ -73,7 +73,11 @@ brew tap | grep -q "^homebrew/cask-fonts$" || brew tap homebrew/cask-fonts
 
 fonts=(
   "font-fira-code"
+  "font-fira-code-nerd-font"
   "font-iosevka"
+  "font-iosevka-nerd-font"
+  "font-jetbrains-mono"
+  "font-jetbrains-mono-nerd-font"
 )
 
 for font in "${fonts[@]}"; do
