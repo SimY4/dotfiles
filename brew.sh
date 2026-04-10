@@ -29,13 +29,9 @@ brew cleanup
 
 # Define an array of packages to install using Homebrew.
 packages=(
-  "clojure"
-  "coursier"
-  "gradle"
+  "fzf"
   "helix"
-  "hugo"
-  "maven"
-  "node"
+  "neovim"
   "zsh-syntax-highlighting"
 )
 
