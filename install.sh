@@ -17,6 +17,7 @@ find .config -type f -exec echo "Linking {}..." \; -exec ln -sf $dotfilesdir/{} 
 
 # Define an array of dotfiles
 dotfiles=(
+  ".gitconfig"
   ".ideavimrc"
 )
 

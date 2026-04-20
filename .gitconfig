@@ -1,0 +1,18 @@
+[user]
+	name = SimY4
+	email = alex.simkin@outlook.com
+	signingkey = ~/.ssh/id_rsa.pub
+[core]
+	autocrlf = input
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = ~/.ssh/allowed_signers
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
