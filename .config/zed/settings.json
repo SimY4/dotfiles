@@ -16,7 +16,7 @@
   },
   "theme": {
     "mode": "system",
-    "light": "Alabaster",
+    "light": "Alabaster BG",
     "dark": "Alabaster Dark",
   },
   "tabs": {
@@ -24,7 +24,11 @@
     "file_icons": true,
   },
   "tab_bar": {
-    "show_nav_history_buttons": false,
+    "show": false,
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
   },
   "vim_mode": true,
   "vim": {
@@ -34,16 +38,18 @@
       "replace": "block",
       "visual": "underline",
     },
+    "use_smartcase_find": true,
   },
   "minimap": { "show": "always" },
   "ui_font_family": ".ZedMono",
   "preferred_line_length": 120,
   "ui_font_size": 15,
   "tab_size": 2,
-  "buffer_font_family": "Iosevka Fixed",
+  "buffer_font_family": "Iosevka Nerd Font Mono",
   "buffer_font_size": 15,
   "autosave": "on_focus_change",
   "auto_signature_help": true,
+  "show_completions_on_input": true,
   "wrap_guides": [120],
   "relative_line_numbers": "enabled",
   "scroll_beyond_last_line": "one_page",
