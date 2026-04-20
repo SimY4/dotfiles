@@ -19,6 +19,7 @@ find .config -type f -exec echo "Linking {}..." \; -exec ln -sf $dotfilesdir/{} 
 dotfiles=(
   ".gitconfig"
   ".ideavimrc"
+  ".zshrc"
 )
 
 # Loop over the array to link into HOME.
