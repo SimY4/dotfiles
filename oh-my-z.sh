@@ -1,9 +1,11 @@
 #!/usr/bin/env zsh
 
+dotfilesdir="$(pwd)"
+
 # Check if 'omz' command is available
 if ! command -v omz &>/dev/null; then
   echo "'omz' command not found. Installing it now."
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  ZSH= sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 else
   echo "'omz' command is already available."
   omz update
