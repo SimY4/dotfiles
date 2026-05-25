@@ -1,4 +1,5 @@
 theme=dark:Catppuccin Frappe,light:Catppuccin Latte
 font-family=Iosevka Nerd Font Mono
+macos-option-as-alt=true
 keybind=super+f=write_screen_file:open
 keybind=global:cmd+grave_accent=toggle_quick_terminal
