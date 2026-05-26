@@ -56,6 +56,7 @@
   "autosave": "on_focus_change",
   "auto_signature_help": true,
   "show_completions_on_input": true,
+  "show_signature_help_after_edits": false,
   "wrap_guides": [120],
   "relative_line_numbers": "enabled",
   "scroll_beyond_last_line": "one_page",
@@ -76,7 +77,7 @@
     "scroll_debounce_ms": 50,
   },
   "collaboration_panel": {
-    "dock": "left",
+    "dock": "right",
     "button": false,
   },
   "lsp": {
